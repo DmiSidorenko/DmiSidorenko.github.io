@@ -31,7 +31,7 @@ if((reg.test(price.value) || reg.test(amount.value))===true ) {
    else if(reg.test(price.value)===true) {
     op();na();
    }
-    else if(reg.test(kol.value)===true) {
+    else if(reg.test(amount.value)===true) {
      np();oa();
     }
 }
