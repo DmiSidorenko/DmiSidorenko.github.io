@@ -8,7 +8,7 @@ header
    background-image:url(https://gradients.app/download/141);
    padding: 10px;
    height:120px;
-   max-width: 960px;
+   max-width: 100%;
    margin: 0 auto;
 }
 
@@ -24,6 +24,10 @@ header
    height:100px;
 }
 
+#links{
+background-image:url(https://gradients.app/download/141)
+}
+
 #bp
 {
    width:70%;
@@ -37,12 +41,13 @@ nav {
   text-align: center;
 }
 
-div.vse 
+#vse 
 {
    max-width:800px;
    margin: 0 auto;
    margin-top:20px;
    padding:10px;
+   background-image:url(https://gradients.app/download/141)
 }
 
 footer 
@@ -102,7 +107,11 @@ ol
   }
 nav 
 {
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  clear: both;
+  width: 100%;
+  text-align: center;
 }
   nav div
 {
