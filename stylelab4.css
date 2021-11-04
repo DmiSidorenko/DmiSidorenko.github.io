@@ -1,0 +1,57 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+#menu a{
+  margin-right: 50px;
+}
+tr.colorr {
+  background:white;
+}
+table{
+ background: #D8BFD8;
+  text-align: center;
+}
+
+header{
+  background-image:url(https://gradients.app/download/143)
+  padding-top:10px;
+  text-align: center;
+}
+
+body{
+
+ background-image:url(https://gradients.app/download/143)
+}
+
+#dop{
+  background-image:url(https://gradients.app/download/143)
+  height:120px;
+}
+
+#logo{
+  float:left;
+  padding:0px; 
+  weight:80px;
+  height:80px;
+}
+
+div.divg{
+  margin: 0 auto;
+  background: #D8BFD8;
+
+}
+footer{
+  color: #8B008B;
+  background-image:url(https://gradients.app/download/143);
+  width: 100%;
+}
+@media screen and (min-width: 800px) and (orientation: landscape) {
+  div.divg{
+    width:70%;
+  }
+}
+
+
