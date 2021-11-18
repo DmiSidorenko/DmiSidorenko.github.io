@@ -98,11 +98,11 @@ totalPriceElement.innerText = "0";
 }
 else{
 if(selectnow==1){ 
-totalPrice=50;
+totalPrice=100;
 totalPrice *= parseInt(squareInput.value);
 }
 else if(selectnow==2){ 
-totalPrice=70;
+totalPrice=140;
 for (const radio of radioType) {
 if (radio.checked) {
 totalPrice = totalPrice + parseFloat(radio.value);
@@ -111,7 +111,7 @@ totalPrice = totalPrice + parseFloat(radio.value);
 totalPrice *= parseInt(squareInput.value);
 }
 else if(selectnow==3){
-totalPrice=100;
+totalPrice=190;
 for (const ceilings of chType) {
 if (ceilings.checked) {
 totalPrice = totalPrice + parseInt(ceilings.value);
