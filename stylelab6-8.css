@@ -6,20 +6,19 @@
     border: 1px solid black;
     margin: auto;
 }
-
-#price,#amount{
+#cena,#kol{
     border: 1px solid black;
     background: rgb(219,89,89);
     background: linear-gradient(0deg, rgba(219,89,89,1) 0%, rgba(227,145,205,1) 100%);
 }
-
 body{
     background: rgb(13,19,96);
     background: linear-gradient(90deg, rgba(13,19,96,1) 4%, rgba(97,10,10,0.5158438375350141) 80%, rgba(246,5,127,0.3029586834733894) 100%);
 }
 main{
     margin-top: 10px;
-    background-color: #FFEBCD;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     width: 50%;
     border: 1px solid black;
     margin: auto;
@@ -97,8 +96,7 @@ img{
     border-radius: 20px;
     box-shadow: 0 5px 0 rgb(39, 61, 42);
     transition: background-color 0.5s ease 0s; 
-    background: rgb(219,89,89);
-    background: linear-gradient(0deg, rgba(219,89,89,1) 0%, rgba(227,145,205,1) 100%);
+    background-color: rgb(112, 172, 115);
     margin-top: 10px;
 }
 .popup-overlay{
@@ -119,8 +117,7 @@ img{
 	margin-top: 40px;
 	left:50%;
 	box-shadow: 0 0 30px rgba(70, 47, 46, 0.788);
-	background: rgb(238,174,202);
-        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	background-color: #FFEBCD;
     border-radius: 5px;
 	}
 	.popWindow h2{
